@@ -75,6 +75,9 @@ aside{
     margin-top: 12px;
 }
 
+.text-aside:hover{
+    font-size: 30px;
+}
 .catalog{
     display: flex;
     justify-content: space-between;
@@ -119,6 +122,11 @@ aside{
     justify-content: center;
     margin: 4px 48px;
     background-color: white;
+}
+
+.product:hover{
+border: 5px groove black;
+box-shadow: 5px 5px 5px 0 #3EA8EE;
 }
 
 .product p{
